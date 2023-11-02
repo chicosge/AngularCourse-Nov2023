@@ -1,0 +1,7 @@
+<!--Pase todo el codigo creado hasta el momento a la carpeta sesiones 1-6 appcomponent. 17/03/2023 ESG-->
+
+<p>Componente principal ANGULAR!</p>
+<p>Aqui abajo mando llamar a mi tercer componente para ver ngOninit, OnChage, etc. Ciclos de vida de componentes:</p>
+
+<app-myfirst [name]="name" [lastName]="lastName"></app-myfirst>
+<button (click)="name = 'juanito'">Change Name</button><!--NO SE RECOMIENDA HACER ESTAS REASIGNACION DE VALORES A VARIABLES eN EL HTML, MEJOR MANDAR LLAMAR UNA FUNCION Y QUE ELLA HAGA EL CAMBIO O LA LOGICA-->
